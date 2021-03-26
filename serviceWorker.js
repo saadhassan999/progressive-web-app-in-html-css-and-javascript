@@ -1,5 +1,11 @@
 const staticMobile = "dev-mob-site-v1";
-const assets = ["/", "/index.html", "/css/style.css", "/js/app.js"];
+const assets = [
+  "/",
+  "/index.html",
+  "/css/style.css",
+  "/js/app.js",
+  "/firebase-messaging-sw.js",
+];
 
 self.addEventListener("install", (installEvent) => {
   installEvent.waitUntil(
